@@ -1,0 +1,157 @@
+
+
+body{
+        padding-top: 79px ;
+      }
+
+.top-header {
+      border-bottom: 4px solid #2ea82c;
+      background-color: white;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+.logo-text {
+      color: #e60012;
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+.tagline {
+      font-size: 12px;
+      color: #000;
+      font-weight: 600;
+      margin-top: -5px;
+    }
+
+.header-links a {
+      color: #000;
+      font-size: 14px;
+      text-decoration: none;
+      margin: 0 6px;
+    }
+
+.header-links a:hover {
+      color: #2ea82c;
+    }
+
+.icon-green {
+      color: #f0f6f0;
+    }
+
+      /*     nav     */
+.navbar-custom {
+      background-color: #333;
+      text-transform: uppercase;
+    }
+
+.navbar-custom .nav-link {
+      color: white !important;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+.navbar-custom .nav-link:hover {
+      background-color: #000000;
+      color: #32a532 !important;
+    }
+
+.navbar-custom .navbar-nav {
+      width: 100%;
+      justify-content: center;
+    }
+
+.navbar-custom .nav-item {
+      border-left: 1px solid #555;
+    }
+
+.navbar-custom .nav-item:last-child {
+      border-right: 1px solid #555;
+    }
+
+.navbar-toggler {
+      border-color: #fff;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    @media (max-width: 991px) {
+      .navbar-custom .navbar-nav {
+        justify-content: start;
+      }
+      .navbar-custom .nav-item {
+        border: none;
+      }
+    }
+
+    /*  main  */
+
+    .feature-title {
+      text-align: center;
+      font-weight: 800;
+      margin: 50px 0 30px 0;
+      font-size: 2rem;
+      border-bottom: 2px solid #28a745; /* thin green line */
+      display: inline-block;
+      padding-top: 10px;
+    }
+
+    .vehicle img {
+      width: 100%;
+      max-width: 220px;
+      transition: transform 0.3s ease;
+    }
+
+    .vehicle img:hover {
+      transform: scale(1.05); /* zoom on hover */
+    }
+
+    .vehicle h5 {
+      font-weight: 800;
+      margin-top: 15px;
+    }
+
+    .vehicle p {
+      font-weight: 700;
+      margin-top: -5px;
+    }
+
+    .vehicle {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /*   footer   */
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 40px 0;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #23d208;
+    }
+    .footer-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    .social-icons i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .copyright {
+      margin-top: 30px;
+      padding-top: 15px;
+      text-align: center;
+      color: #ccc;
+    }
